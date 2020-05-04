@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from '../page/index'
 import Parent from '../components/Parent/Parent'
 import LifeCycle from '../components/LifeCycle/Parent'
+import VModel from '../components/VModel/index'
 
 Vue.use(Router)
 
@@ -26,6 +27,11 @@ let routes = [
         path: '/lifeCycle', // 父子组件生命周期演示
         name: 'lifeCycle',
         component: LifeCycle
+    },
+    {
+        path: '/vModel', // 自定义v-model
+        name: 'vModel',
+        component: VModel
     }
 ]
 
