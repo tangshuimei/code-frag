@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '../page/index'
+import Index from '../pages/index'
 import Parent from '../components/Parent/Parent'
 import LifeCycle from '../components/LifeCycle/Parent'
 import VModel from '../components/VModel/index'
